@@ -1,6 +1,6 @@
 # Spinner
 
-Um spinner simples e personalizável em JavaScript.
+Um spinner simples e personalizável em TypeScript.
 
 ## Introdução
 
