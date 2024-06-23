@@ -1,51 +1,48 @@
-# Spinner
+Spinner
+A simple and customizable spinner in TypeScript.
 
-Um spinner simples e personalizável em TypeScript.
+Introduction
+This is a spinner made in pure JavaScript that can be easily integrated into any web project. It offers a variety of customization options such as color, speed, size, and rotation direction.
 
-## Introdução
+<a href="https://vinicius-rodriguess.github.io/dynamic-spinner/">Click here to try it out!</a>
 
-Este é um spinner feito em JavaScript puro, que pode ser facilmente integrado em qualquer projeto web. Ele oferece uma variedade de opções de personalização, como cor, velocidade, tamanho e direção de rotação.
+How to Use
+Include the spinner.js file in your project and call spinner.start.
 
-<a href="https://vinicius-rodriguess.github.io/dynamic-spinner/">Clique aqui para testar!</a>
+Available Methods
 
-## Como usar
+start(): Starts the spinner.
 
-- Inclua o arquivo `spinner.js` no seu projeto e chame spinner.start
+stop(): Stops the spinner.
 
-- Métodos Disponíveis
+reload(): Reloads the spinner.
 
-start(): Inicia o spinner.
+setColor(color): Sets the spinner color.
 
-stop(): Para o spinner.
+getColor(): Returns the current spinner color.
 
-reload(): Recarrega o spinner.
+setBgColor(color): Sets the background color of the spinner.
 
-setColor(color): Define a cor do spinner.
+getBgColor(): Returns the current background color of the spinner.
 
-getColor(): Retorna a cor atual do spinner.
+setBgBorderColor(color): Sets the background border color of the spinner.
 
-setBgColor(color): Define a cor de fundo do spinner.
+getBgBorderColor(): Returns the current background border color of the spinner.
 
-getBgColor(): Retorna a cor de fundo atual do spinner.
+setSpeed(speed): Sets the rotation speed of the spinner.
 
-setBgBorderColor(color): Define a cor da borda de fundo do spinner.
+getSpeed(): Returns the current rotation speed of the spinner.
 
-getBgBorderColor(): Retorna a cor da borda de fundo atual do spinner.
+setSize(height, width): Sets the size of the spinner (height and width).
 
-setSpeed(speed): Define a velocidade de rotação do spinner.
+getSize(): Returns the current size of the spinner.
 
-getSpeed(): Retorna a velocidade de rotação atual do spinner.
+setDirection(direction): Sets the rotation direction of the spinner ("r" for right, "l" for left).
 
-setSize(height, width): Define o tamanho do spinner (altura e largura).
+getDirection(): Returns the current rotation direction of the spinner.
 
-getSize(): Retorna o tamanho atual do spinner.
+setRadius(radius): Sets the radius of the spinner.
 
-setDirection(direction): Define a direção da rotação do spinner ("r" para direita, "l" para esquerda).
+getRadius(): Returns the current radius of the spinner.
 
-getDirection(): Retorna a direção atual da rotação do spinner.
-
-setRadius(radius): Define o raio do spinner.
-
-getRadius(): Retorna o raio atual do spinner.
-
-setConfigFromJSON(jsonConfig): Configura o spinner usando um objeto JSON.
+setConfigFromJSON(jsonConfig): Configures the spinner using a JSON object.
